@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MovieTableViewController.h
 //  RottenMovies
 //
 //  Created by Daniel Kwiatkowski on 2015-04-27.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MovieTableViewController : UITableViewController
+
 
 
 @end
-

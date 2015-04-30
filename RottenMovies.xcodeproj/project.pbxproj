@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		651B70F91AEF251400480D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B70F81AEF251400480D3B /* main.m */; };
 		651B70FC1AEF251400480D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B70FB1AEF251400480D3B /* AppDelegate.m */; };
-		651B70FF1AEF251400480D3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B70FE1AEF251400480D3B /* ViewController.m */; };
 		651B71021AEF251400480D3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651B71001AEF251400480D3B /* Main.storyboard */; };
 		651B71041AEF251400480D3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651B71031AEF251400480D3B /* Images.xcassets */; };
 		651B71071AEF251400480D3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651B71051AEF251400480D3B /* LaunchScreen.xib */; };
 		651B71131AEF251400480D3B /* RottenMoviesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B71121AEF251400480D3B /* RottenMoviesTests.m */; };
+		651B711E1AEF264200480D3B /* MovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B711D1AEF264200480D3B /* MovieTableViewController.m */; };
+		651B71251AEF2AA000480D3B /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B71241AEF2AA000480D3B /* MovieCell.m */; };
+		651B73401AF00DA300480D3B /* MovieDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B733F1AF00DA300480D3B /* MovieDetailController.m */; };
+		651B73431AF05E6000480D3B /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 651B73421AF05E6000480D3B /* Movie.m */; };
+		A1C31C925368D28E562F1C49 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E6C7591E7950660226A9E4 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +31,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55988994633DA8A1F1C552FD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		651B70F31AEF251400480D3B /* RottenMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651B70F71AEF251400480D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651B70F81AEF251400480D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		651B70FA1AEF251400480D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		651B70FB1AEF251400480D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		651B70FD1AEF251400480D3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		651B70FE1AEF251400480D3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		651B71011AEF251400480D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		651B71031AEF251400480D3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		651B71061AEF251400480D3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		651B710C1AEF251400480D3B /* RottenMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RottenMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651B71111AEF251400480D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651B71121AEF251400480D3B /* RottenMoviesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenMoviesTests.m; sourceTree = "<group>"; };
+		651B711C1AEF264200480D3B /* MovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewController.h; sourceTree = "<group>"; };
+		651B711D1AEF264200480D3B /* MovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewController.m; sourceTree = "<group>"; };
+		651B71231AEF2AA000480D3B /* MovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		651B71241AEF2AA000480D3B /* MovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		651B72281AEFF59E00480D3B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		651B722E1AEFF5EB00480D3B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SenTestingKit.framework; sourceTree = "<group>"; };
+		651B733E1AF00DA300480D3B /* MovieDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailController.h; sourceTree = "<group>"; };
+		651B733F1AF00DA300480D3B /* MovieDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailController.m; sourceTree = "<group>"; };
+		651B73411AF05E6000480D3B /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		651B73421AF05E6000480D3B /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+		BE8AD781E7E123C0A3DD18EE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E6C7591E7950660226A9E4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C31C925368D28E562F1C49 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +76,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E99FCC6F186215E41ABFE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651B722E1AEFF5EB00480D3B /* SenTestingKit.framework */,
+				651B72281AEFF59E00480D3B /* SenTestingKit.framework */,
+				D7E6C7591E7950660226A9E4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CF89487D82212CEB8661D26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE8AD781E7E123C0A3DD18EE /* Pods.debug.xcconfig */,
+				55988994633DA8A1F1C552FD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		651B70EA1AEF251300480D3B = {
 			isa = PBXGroup;
 			children = (
+				651B73411AF05E6000480D3B /* Movie.h */,
+				651B73421AF05E6000480D3B /* Movie.m */,
+				651B733E1AF00DA300480D3B /* MovieDetailController.h */,
+				651B733F1AF00DA300480D3B /* MovieDetailController.m */,
+				651B71231AEF2AA000480D3B /* MovieCell.h */,
+				651B71241AEF2AA000480D3B /* MovieCell.m */,
+				651B711F1AEF264D00480D3B /* Controllers */,
+				651B711C1AEF264200480D3B /* MovieTableViewController.h */,
+				651B711D1AEF264200480D3B /* MovieTableViewController.m */,
 				651B70F51AEF251400480D3B /* RottenMovies */,
 				651B710F1AEF251400480D3B /* RottenMoviesTests */,
 				651B70F41AEF251400480D3B /* Products */,
+				3CF89487D82212CEB8661D26 /* Pods */,
+				38E99FCC6F186215E41ABFE0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +129,6 @@
 			children = (
 				651B70FA1AEF251400480D3B /* AppDelegate.h */,
 				651B70FB1AEF251400480D3B /* AppDelegate.m */,
-				651B70FD1AEF251400480D3B /* ViewController.h */,
-				651B70FE1AEF251400480D3B /* ViewController.m */,
 				651B71001AEF251400480D3B /* Main.storyboard */,
 				651B71031AEF251400480D3B /* Images.xcassets */,
 				651B71051AEF251400480D3B /* LaunchScreen.xib */,
@@ -119,6 +163,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		651B711F1AEF264D00480D3B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 651B71161AEF251400480D3B /* Build configuration list for PBXNativeTarget "RottenMovies" */;
 			buildPhases = (
+				85C920A0B92C00ECC1BC8F49 /* Check Pods Manifest.lock */,
 				651B70EF1AEF251400480D3B /* Sources */,
 				651B70F01AEF251400480D3B /* Frameworks */,
 				651B70F11AEF251400480D3B /* Resources */,
+				59BBDD6BDD829A310ADF65B4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +267,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59BBDD6BDD829A310ADF65B4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85C920A0B92C00ECC1BC8F49 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		651B70EF1AEF251400480D3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651B70FF1AEF251400480D3B /* ViewController.m in Sources */,
+				651B73431AF05E6000480D3B /* Movie.m in Sources */,
 				651B70FC1AEF251400480D3B /* AppDelegate.m in Sources */,
 				651B70F91AEF251400480D3B /* main.m in Sources */,
+				651B71251AEF2AA000480D3B /* MovieCell.m in Sources */,
+				651B711E1AEF264200480D3B /* MovieTableViewController.m in Sources */,
+				651B73401AF00DA300480D3B /* MovieDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +430,14 @@
 		};
 		651B71171AEF251400480D3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8AD781E7E123C0A3DD18EE /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RottenMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -351,8 +446,14 @@
 		};
 		651B71181AEF251400480D3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55988994633DA8A1F1C552FD /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RottenMovies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +513,7 @@
 				651B71181AEF251400480D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		651B71191AEF251400480D3B /* Build configuration list for PBXNativeTarget "RottenMoviesTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +522,7 @@
 				651B711B1AEF251400480D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
